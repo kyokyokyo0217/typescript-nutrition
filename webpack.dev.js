@@ -1,6 +1,9 @@
 const path = require("path");
 
+console.log(path)
+
 module.exports = {
+    mode: 'development',
     entry: "./src/food-app/main.ts",
     output: {
         filename: "bundle.js",
